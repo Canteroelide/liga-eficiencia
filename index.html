@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción - Liga de Eficiencia Energética</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Liga de Eficiencia Energética</h1>
+    </header>
+    <main>
+        <section id="inscripcion" class="section">
+            <div class="container">
+                <h2>Formulario de Inscripción</h2>
+                <form action="https://formspree.io/f/mrbzqdew" method="post">
+                    <label for="name">Nombre de la Empresa:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" id="phone" name="phone" required><br>
+                    <label for="sector">Sector:</label>
+                    <input type="text" id="sector" name="sector" required><br>
+                    <label for="message">Mensaje:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <section id="descripcion" class="section">
+            <div class="container">
+                <h2>Acerca de la Liga de Eficiencia Energética</h2>
+                <p>La Liga de Eficiencia Energética es una iniciativa creada para incentivar a las empresas a mejorar su eficiencia energética y promover la sostenibilidad. Participa en nuestra competición mensual y destaca como líder en sostenibilidad.</p>
+                <h3>Criterios de Puntuación</h3>
+                <ul>
+                    <li><strong>Reducción del Consumo Energético:</strong> Puntos por cada porcentaje de reducción.</li>
+                    <li><strong>Implementación de Tecnologías Eficientes:</strong> Puntos por adoptar tecnologías como iluminación LED y sistemas de gestión de energía.</li>
+                    <li><strong>Uso de Energías Renovables:</strong> Puntos por el porcentaje de energía renovable utilizada.</li>
+                    <li><strong>Innovación y Proyectos Especiales:</strong> Puntos por proyectos piloto y colaboraciones académicas.</li>
+                    <li><strong>Educación y Conciencia Energética:</strong> Puntos por programas de formación y campañas de concienciación.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Liga de Eficiencia Energética</p>
+        </div>
+    </footer>
+</body>
+</html>
